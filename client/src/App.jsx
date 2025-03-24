@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./Pages/Header";
-import Footer from "./Pages/Footer";
-import ContactForm from "./Pages/ContactForm";
-import LeadershipAdmin from "./Pages/LeaderShip";
-import About from "./Pages/About";
-import ResearchPublications from "./Pages/ResearchPublication";
-import HonorsAwards from "./Pages/HonorsAndReward";
-import AcademicContributions from "./Pages/AcademicContributions";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
+import ContactForm from "./pages/ContactForm";
+import LeadershipAdmin from "./pages/LeaderShip";
+import About from "./pages/About";
+import ResearchPublications from "./pages/ResearchPublication";
+import HonorsAwards from "./pages/HonorsAndReward";
+import AcademicContributions from "./pages/AcademicContributions";
 import Navbar from "./pages/Navbar";
 
 function App() {
