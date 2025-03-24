@@ -22,10 +22,10 @@ export default function Navbar() {
     <nav className="p-4 fixed w-full top-0 z-50 shadow-md bg-white">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl font-bold ml-5">Dr. Sanjay Gambhir</h1>
+        <h1 className="text-2xl font-bold ml-2 md:ml-8">Dr. Sanjay Gambhir</h1>
 
         {/* Hamburger Menu (Mobile) */}
-        <button onClick={toggleMenu} className="lg:hidden focus:outline-none">
+        <button onClick={toggleMenu} className="md:hidden focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"

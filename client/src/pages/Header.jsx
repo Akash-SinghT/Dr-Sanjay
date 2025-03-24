@@ -1,4 +1,4 @@
-"use client";
+import imageprof from "../assets/imageprof.jpg";
 
 const Header = () => {
   return (
@@ -28,9 +28,9 @@ const Header = () => {
 
       {/* Image Section */}
       <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-        <div className="relative w-[400px] h-[470px] md:w-[400px] md:h-[470px] rounded-xl overflow-hidden shadow-lg">
+        <div className="relative w-[400px] h-[450px] md:w-[400px] md:h-[470px] rounded-xl overflow-hidden shadow-lg">
           <img
-            src="https://wallpapers.com/images/hd/money-heist-professor-focused-portrait-nvrk1vd6lwnyt7hi.jpg"
+            src={imageprof}
             alt="Nuclear Medicine Excellence"
             className="object-cover w-full h-70"
           />
